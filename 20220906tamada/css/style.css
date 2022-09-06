@@ -1,0 +1,47 @@
+.content {
+  height: 900px;
+  width: 1800px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__title {
+  font-size: 32px;
+  margin: 20px 20px;
+  color: #02277e;
+}
+.header__nav-contents {
+  display: flex;
+}
+.header__nav-link {
+  margin-right: 20px;
+}
+.header__nav-anchor {
+  font-weight: bold;
+  text-decoration: none;
+  color: #01277e;
+}
+.main {
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.main__img {
+  position: absolute;
+  right: 0;
+  bottom: 150px;
+  width: 50%;
+}
+.main__messege {
+  font-size: 80px;
+}
+.main__blue-bg {
+  background-color: #00277e;
+  height: 30%;
+  width: 75%;
+  margin-bottom: 40px;
+}
